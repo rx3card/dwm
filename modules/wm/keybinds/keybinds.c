@@ -97,8 +97,23 @@ static const Key keys[] = {
     //  Dmenu
   { MODKEY, XK_space, spawn, SHCMD(MY_MENU)}, 
 
+    // Antigravity
+  { MODKEY, XK_q, spawn, SHCMD("antigravity") },
+
     //  Browser
   { MODKEY, XK_b, spawn, SHCMD(MY_BROWSER)}, 
+
+    // Libre Office
+  { MODKEY,  XK_o, spawn, SHCMD("libreoffice")},
+
+    // My explorer file
+  { MODKEY, XK_e, spawn, SHCMD("thunar") },
+
+  // My second browser
+  { MODKEY, XK_f, spawn, SHCMD("brave") },
+
+  // My second terminal
+  { MODKEY, XK_u, spawn, SHCMD("warp-terminal") },
 
     // Code editor
   { MODKEY, XK_c, spawn, SHCMD(CODE_EDITOR)}, 

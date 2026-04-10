@@ -5,6 +5,10 @@ const char MY_BROWSER[] = "firefox";
 const char MOD_COLORTEMP[] = "redshift -O 4400";
 const char RESET_COLORTEMP[] = "redshift -x";
 const char CODE_EDITOR[] = "code";
+// const char MY_SECOND_TERMINAL = "warp-terminal";
+// const char MY_SECOND_BROWSER = "brave";
+// const char LIBRE_OFFICE = "libreoffice";
+// const chat MY_EXPLORE_FILE = "thunar"
 
 const char SCRIPT_SC[] = "$HOME/.config/dwm/scripts/util/screenshot";
 const char SCRIPT_SC_SELECTED[] = "$HOME/.config/dwm/scripts/util/screenshot-s";
